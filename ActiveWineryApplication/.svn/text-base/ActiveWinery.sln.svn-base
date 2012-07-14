@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeoOrange.Controls", "..\NeoOrange.Controls\NeoOrange.Controls.csproj", "{ED27F07D-17B7-481B-9E40-58182D425758}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActiveWinery", "ActiveWinery.csproj", "{D7AC7395-40B1-41E7-8323-844C8945D79E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeoOrange.Styles", "..\NeoOrange.Styles\NeoOrange.Styles.csproj", "{352A8CDF-8959-4ADC-BC1F-C8452CE4437C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeoOrange.Windows", "..\NeoOrange.Windows\NeoOrange.Windows.csproj", "{A46EC42E-5CC2-41CE-8024-290990D6F4F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeoOrange.Infrastructure", "..\NeoOrange.Infrastructure\NeoOrange.Infrastructure.csproj", "{87AB27BC-0619-4677-895A-E725CBE23146}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActiveWinery.Configuration", "..\ActiveWinery.Configuration\ActiveWinery.Configuration.csproj", "{C4A08FEA-DC3A-4638-AB35-ADE95BCB5097}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActiveWinery.Administration", "..\ActiveWinery.Administration\ActiveWinery.Administration.csproj", "{8C9327F8-00E4-4153-90AA-D315582B8D82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED27F07D-17B7-481B-9E40-58182D425758}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED27F07D-17B7-481B-9E40-58182D425758}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED27F07D-17B7-481B-9E40-58182D425758}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED27F07D-17B7-481B-9E40-58182D425758}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7AC7395-40B1-41E7-8323-844C8945D79E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7AC7395-40B1-41E7-8323-844C8945D79E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7AC7395-40B1-41E7-8323-844C8945D79E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7AC7395-40B1-41E7-8323-844C8945D79E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{352A8CDF-8959-4ADC-BC1F-C8452CE4437C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{352A8CDF-8959-4ADC-BC1F-C8452CE4437C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{352A8CDF-8959-4ADC-BC1F-C8452CE4437C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{352A8CDF-8959-4ADC-BC1F-C8452CE4437C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A46EC42E-5CC2-41CE-8024-290990D6F4F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A46EC42E-5CC2-41CE-8024-290990D6F4F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A46EC42E-5CC2-41CE-8024-290990D6F4F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A46EC42E-5CC2-41CE-8024-290990D6F4F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87AB27BC-0619-4677-895A-E725CBE23146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87AB27BC-0619-4677-895A-E725CBE23146}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87AB27BC-0619-4677-895A-E725CBE23146}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87AB27BC-0619-4677-895A-E725CBE23146}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4A08FEA-DC3A-4638-AB35-ADE95BCB5097}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4A08FEA-DC3A-4638-AB35-ADE95BCB5097}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4A08FEA-DC3A-4638-AB35-ADE95BCB5097}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4A08FEA-DC3A-4638-AB35-ADE95BCB5097}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C9327F8-00E4-4153-90AA-D315582B8D82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C9327F8-00E4-4153-90AA-D315582B8D82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C9327F8-00E4-4153-90AA-D315582B8D82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C9327F8-00E4-4153-90AA-D315582B8D82}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

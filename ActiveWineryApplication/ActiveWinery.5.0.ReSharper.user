@@ -1,0 +1,96 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:System.Windows.Controls.UserControl">
+      <Item value="SnapsToDevicePixels" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Default">
+      <Item value="openWindow" priority="1" />
+      <Item value="BringToFront`0" priority="0" />
+      <Item value="ActivateWindow`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="ED27F07D-17B7-481B-9E40-58182D425758/f:ModalCanvas.cs" caret="736" fromTop="22" />
+      <File id="ED27F07D-17B7-481B-9E40-58182D425758/d:Extensions/f:ButtonExtension.cs" caret="287" fromTop="11" />
+      <File id="ED27F07D-17B7-481B-9E40-58182D425758/d:Extensions/f:GeneralControlExtension.cs" caret="263" fromTop="10" />
+      <File id="ED27F07D-17B7-481B-9E40-58182D425758/d:Extensions/f:ViewExtension.cs" caret="534" fromTop="17" />
+      <File id="ED27F07D-17B7-481B-9E40-58182D425758/d:Commands/f:IResult.cs" caret="0" fromTop="0" />
+      <File id="ED27F07D-17B7-481B-9E40-58182D425758/d:Commands/f:ReflectiveCommand.cs" caret="0" fromTop="0" />
+      <File id="ED27F07D-17B7-481B-9E40-58182D425758/d:Commands/f:ResultEnumerator.cs" caret="0" fromTop="0" />
+      <File id="D7AC7395-40B1-41E7-8323-844C8945D79E/f:Bootstrapper.cs" caret="0" fromTop="0" />
+      <File id="D7AC7395-40B1-41E7-8323-844C8945D79E/d:ViewModels/f:ToolbarViewModel.cs" caret="0" fromTop="0" />
+      <File id="D7AC7395-40B1-41E7-8323-844C8945D79E/d:Services/f:ViewModelLocator.cs" caret="0" fromTop="0" />
+      <File id="D7AC7395-40B1-41E7-8323-844C8945D79E/d:Services/f:IBinder.cs" caret="0" fromTop="0" />
+      <File id="D7AC7395-40B1-41E7-8323-844C8945D79E/d:Services/f:Binder.cs" caret="0" fromTop="0" />
+      <File id="D7AC7395-40B1-41E7-8323-844C8945D79E/d:Modules/f:ShellModule.cs" caret="0" fromTop="0" />
+      <File id="D7AC7395-40B1-41E7-8323-844C8945D79E/d:Models/f:OpenWindow.cs" caret="0" fromTop="0" />
+      <File id="ED27F07D-17B7-481B-9E40-58182D425758/f:DialogResult.cs" caret="0" fromTop="0" />
+      <File id="C4A08FEA-DC3A-4638-AB35-ADE95BCB5097/d:Views/f:ObservationsCategoryView.xaml.cs" caret="13" fromTop="0" />
+      <File id="8C9327F8-00E4-4153-90AA-D315582B8D82/d:Modules/f:AdministrationModule.cs" caret="351" fromTop="8" />
+      <File id="87AB27BC-0619-4677-895A-E725CBE23146/f:IViewModel.cs" caret="152" fromTop="6" />
+      <File id="C4A08FEA-DC3A-4638-AB35-ADE95BCB5097/d:Views/f:ObservationsCategoryView.xaml" caret="947" fromTop="3" />
+      <File id="C4A08FEA-DC3A-4638-AB35-ADE95BCB5097/d:Modules/f:ConfigurationModule.cs" caret="719" fromTop="19" />
+      <File id="352A8CDF-8959-4ADC-BC1F-C8452CE4437C/f:NeoOrangeTheme.xaml" caret="362" fromTop="10" />
+      <File id="D7AC7395-40B1-41E7-8323-844C8945D79E/f:App.xaml" caret="465" fromTop="6" />
+      <File id="D7AC7395-40B1-41E7-8323-844C8945D79E/f:Shell.xaml" caret="221" fromTop="0" />
+      <File id="352A8CDF-8959-4ADC-BC1F-C8452CE4437C/f:DefaultStyle.xaml" caret="9179" fromTop="191" />
+      <File id="8C9327F8-00E4-4153-90AA-D315582B8D82/d:ViewModels/f:GroupingViewModel.cs" caret="1533" fromTop="16" />
+      <File id="87AB27BC-0619-4677-895A-E725CBE23146/f:IView.cs" caret="206" fromTop="9" />
+      <File id="D7AC7395-40B1-41E7-8323-844C8945D79E/d:Services/f:WindowsManager.cs" caret="1599" fromTop="0" />
+      <File id="8C9327F8-00E4-4153-90AA-D315582B8D82/d:Views/f:ConfigurationView.xaml.cs" caret="382" fromTop="11" />
+      <File id="8C9327F8-00E4-4153-90AA-D315582B8D82/d:Views/f:ConfigurationView.xaml" caret="29" fromTop="0" />
+      <File id="8C9327F8-00E4-4153-90AA-D315582B8D82/d:Views/f:GroupingView.xaml.cs" caret="1464" fromTop="27" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="8C9327F8-00E4-4153-90AA-D315582B8D82/d:ViewModels/f:GroupingViewModel.cs" caret="1499" fromTop="16" />
+      <File id="8C9327F8-00E4-4153-90AA-D315582B8D82/d:ViewModels/f:GroupingViewModel.cs" caret="1211" fromTop="2" />
+      <File id="352A8CDF-8959-4ADC-BC1F-C8452CE4437C/f:DefaultStyle.xaml" caret="3299" fromTop="0" />
+      <File id="352A8CDF-8959-4ADC-BC1F-C8452CE4437C/f:DefaultStyle.xaml" caret="7649" fromTop="20" />
+      <File id="352A8CDF-8959-4ADC-BC1F-C8452CE4437C/f:DefaultStyle.xaml" caret="7942" fromTop="24" />
+      <File id="352A8CDF-8959-4ADC-BC1F-C8452CE4437C/f:DefaultStyle.xaml" caret="4321" fromTop="24" />
+      <File id="352A8CDF-8959-4ADC-BC1F-C8452CE4437C/f:DefaultStyle.xaml" caret="9480" fromTop="27" />
+      <File id="352A8CDF-8959-4ADC-BC1F-C8452CE4437C/f:DefaultStyle.xaml" caret="9773" fromTop="31" />
+      <File id="352A8CDF-8959-4ADC-BC1F-C8452CE4437C/f:DefaultStyle.xaml" caret="5836" fromTop="16" />
+      <File id="352A8CDF-8959-4ADC-BC1F-C8452CE4437C/f:DefaultStyle.xaml" caret="6129" fromTop="20" />
+      <File id="352A8CDF-8959-4ADC-BC1F-C8452CE4437C/f:NeoOrangeTheme.xaml" caret="0" fromTop="0" />
+      <File id="352A8CDF-8959-4ADC-BC1F-C8452CE4437C/f:DefaultStyle.xaml" caret="6694" fromTop="33" />
+      <File id="352A8CDF-8959-4ADC-BC1F-C8452CE4437C/f:DefaultStyle.xaml" caret="6987" fromTop="37" />
+      <File id="352A8CDF-8959-4ADC-BC1F-C8452CE4437C/f:DefaultStyle.xaml" caret="4885" fromTop="37" />
+      <File id="352A8CDF-8959-4ADC-BC1F-C8452CE4437C/f:DefaultStyle.xaml" caret="5178" fromTop="41" />
+      <File id="352A8CDF-8959-4ADC-BC1F-C8452CE4437C/f:DefaultStyle.xaml" caret="8498" fromTop="33" />
+      <File id="352A8CDF-8959-4ADC-BC1F-C8452CE4437C/f:DefaultStyle.xaml" caret="10341" fromTop="40" />
+      <File id="352A8CDF-8959-4ADC-BC1F-C8452CE4437C/f:DefaultStyle.xaml" caret="10634" fromTop="44" />
+      <File id="352A8CDF-8959-4ADC-BC1F-C8452CE4437C/f:DefaultStyle.xaml" caret="8784" fromTop="15" />
+      <File id="8C9327F8-00E4-4153-90AA-D315582B8D82/d:Views/f:GroupingView.xaml.cs" caret="1087" fromTop="18" />
+      <File id="8C9327F8-00E4-4153-90AA-D315582B8D82/d:Views/f:GroupingView.xaml.cs" caret="1717" fromTop="37" />
+      <File id="8C9327F8-00E4-4153-90AA-D315582B8D82/d:Views/f:GroupingView.xaml.cs" caret="1929" fromTop="44" />
+      <File id="8C9327F8-00E4-4153-90AA-D315582B8D82/d:Views/f:ConfigurationView.xaml.cs" caret="670" fromTop="26" />
+      <File id="8C9327F8-00E4-4153-90AA-D315582B8D82/d:Views/f:ConfigurationView.xaml.cs" caret="782" fromTop="30" />
+      <File id="8C9327F8-00E4-4153-90AA-D315582B8D82/d:Views/f:ConfigurationView.xaml.cs" caret="1433" fromTop="21" />
+      <File id="8C9327F8-00E4-4153-90AA-D315582B8D82/d:Views/f:ConfigurationView.xaml.cs" caret="1645" fromTop="28" />
+      <File id="D7AC7395-40B1-41E7-8323-844C8945D79E/d:Services/f:WindowsManager.cs" caret="5602" fromTop="44" />
+      <File id="D7AC7395-40B1-41E7-8323-844C8945D79E/d:Services/f:WindowsManager.cs" caret="5369" fromTop="23" />
+      <File id="D7AC7395-40B1-41E7-8323-844C8945D79E/d:Services/f:WindowsManager.cs" caret="1599" fromTop="11" />
+      <File id="8C9327F8-00E4-4153-90AA-D315582B8D82/d:Views/f:GroupingView.xaml.cs" caret="1464" fromTop="33" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

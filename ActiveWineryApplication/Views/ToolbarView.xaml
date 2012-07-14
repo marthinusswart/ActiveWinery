@@ -1,0 +1,27 @@
+﻿<UserControl x:Class="ActiveWinery.Views.ToolbarView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/NeoOrange.Styles;component/DefaultStyle.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+    <Grid>
+        <Border BorderBrush="Black" BorderThickness="0,1,0,0">
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0.504,0.03" EndPoint="0.504,1.5" >
+                    <GradientStop Color="#FFFFD7A8" Offset="0"/>
+                    <GradientStop Color="#FFFFFFFF" Offset="0.567"/>
+                </LinearGradientBrush>
+            </Border.Background>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button x:Name="OpenConfig" Style="{DynamicResource ConfigButton}"></Button>
+                <Button x:Name="OpenCategory" Style="{DynamicResource ToolbarButton}"></Button>
+            </StackPanel>
+        </Border>
+    </Grid>
+</UserControl>

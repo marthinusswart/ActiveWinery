@@ -1,0 +1,13 @@
+K 10
+svn:ignore
+V 114
+_UpgradeReport_Files
+UpgradeLog.XML
+UpgradeLog2.XML
+UpgradeLog3.XML
+bin
+obj
+ActiveWinery.5.0.ReSharper.user
+*.suo
+
+END

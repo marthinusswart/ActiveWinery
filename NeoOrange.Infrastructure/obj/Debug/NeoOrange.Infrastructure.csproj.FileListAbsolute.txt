@@ -1,0 +1,5 @@
+D:\Projects\ActiveWinery\NeoOrange.Infrastructure\bin\Debug\NeoOrange.Infrastructure.dll
+D:\Projects\ActiveWinery\NeoOrange.Infrastructure\bin\Debug\NeoOrange.Infrastructure.pdb
+D:\Projects\ActiveWinery\NeoOrange.Infrastructure\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\ActiveWinery\NeoOrange.Infrastructure\obj\Debug\NeoOrange.Infrastructure.dll
+D:\Projects\ActiveWinery\NeoOrange.Infrastructure\obj\Debug\NeoOrange.Infrastructure.pdb

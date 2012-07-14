@@ -1,0 +1,10 @@
+D:\Projects\ActiveWinery\NeoOrange.Controls\bin\Debug\NeoOrange.Controls.dll
+D:\Projects\ActiveWinery\NeoOrange.Controls\bin\Debug\NeoOrange.Controls.pdb
+D:\Projects\ActiveWinery\NeoOrange.Controls\bin\Debug\NeoOrange.Infrastructure.dll
+D:\Projects\ActiveWinery\NeoOrange.Controls\bin\Debug\NeoOrange.Infrastructure.pdb
+D:\Projects\ActiveWinery\NeoOrange.Controls\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\ActiveWinery\NeoOrange.Controls\obj\Debug\NeoOrange.Controls.Properties.Resources.resources
+D:\Projects\ActiveWinery\NeoOrange.Controls\obj\Debug\GenerateResource.read.1.tlog
+D:\Projects\ActiveWinery\NeoOrange.Controls\obj\Debug\GenerateResource.write.1.tlog
+D:\Projects\ActiveWinery\NeoOrange.Controls\obj\Debug\NeoOrange.Controls.dll
+D:\Projects\ActiveWinery\NeoOrange.Controls\obj\Debug\NeoOrange.Controls.pdb

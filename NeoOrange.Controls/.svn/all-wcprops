@@ -1,0 +1,27 @@
+K 26
+svn:wc:ra_dav:activity-url
+V 14
+/svn/!svn/act/
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/59696/NeoOrange.Controls
+END
+DialogResult.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/48877/NeoOrange.Controls/DialogResult.cs
+END
+ModalCanvas.cs
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/59577/NeoOrange.Controls/ModalCanvas.cs
+END
+NeoOrange.Controls.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/49143/NeoOrange.Controls/NeoOrange.Controls.csproj
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/48929/ActiveWineryApplication/Services
+END
+IBinder.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/59577/ActiveWineryApplication/Services/IBinder.cs
+END
+ViewModelLocator.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/59577/ActiveWineryApplication/Services/ViewModelLocator.cs
+END
+Binder.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/59577/ActiveWineryApplication/Services/Binder.cs
+END
+WindowsManager.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/59695/ActiveWineryApplication/Services/WindowsManager.cs
+END

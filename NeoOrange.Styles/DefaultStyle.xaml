@@ -1,0 +1,400 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:extensions="http://neoorange/xaml/controls">
+
+    <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+
+    <Style x:Key="DialogTitle" TargetType="{x:Type Border}">
+        <Setter Property="Background" Value="#FFFFC63D"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="BorderBrush" Value="Black"/>
+        <Setter Property="CornerRadius" Value="5,5,0,0"/>
+        <Setter Property="SnapsToDevicePixels" Value="True"/>
+    </Style>
+
+    <Style x:Key="WindowTitle" TargetType="{x:Type Border}">
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="BorderBrush" Value="Black"/>
+        <Setter Property="CornerRadius" Value="5,5,0,0"/>
+        <Setter Property="SnapsToDevicePixels" Value="True"/>
+        <Setter Property="Background">
+            <Setter.Value>
+                <LinearGradientBrush>
+                    <GradientStop Color="Gray" Offset="0"/>
+                    <GradientStop Color="White" Offset="0.8"/>
+                </LinearGradientBrush>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="WindowButtonBorder" TargetType="{x:Type Border}">
+        <Setter Property="VerticalAlignment" Value="Top"/>
+        <Setter Property="BorderBrush" Value="Black"/>
+        <Setter Property="CornerRadius" Value="0,0,5,5"/>
+        <Setter Property="BorderThickness" Value="1,0,1,1"/>
+        <Setter Property="Margin" Value="0,0,5,0"/>
+        <Setter Property="Height" Value="25"/>
+        <Setter Property="SnapsToDevicePixels" Value="True"/>
+    </Style>
+
+    <Style x:Key="DialogBody" TargetType="{x:Type Border}">
+        <Setter Property="Background" Value="White"/>
+        <Setter Property="BorderThickness" Value="1,0,1,1"/>
+        <Setter Property="BorderBrush" Value="Black"/>
+        <Setter Property="SnapsToDevicePixels" Value="True"/>
+    </Style>
+
+    <Style x:Key="WindowBody" TargetType="{x:Type Border}">
+        <Setter Property="Background" Value="White"/>
+        <Setter Property="BorderThickness" Value="1,0,1,1"/>
+        <Setter Property="BorderBrush" Value="Black"/>
+        <Setter Property="CornerRadius" Value="0,0,5,5"/>
+        <Setter Property="SnapsToDevicePixels" Value="True"/>
+    </Style>
+
+    <Style x:Key="NormalText" TargetType="{x:Type TextBlock}">
+        <Setter Property="Foreground" Value="Black"/>
+        <Setter Property="SnapsToDevicePixels" Value="True"/>
+    </Style>
+
+    <Style x:Key="DialogTitleText" TargetType="{x:Type TextBlock}">
+        <Setter Property="Foreground" Value="Black"/>
+        <Setter Property="SnapsToDevicePixels" Value="True"/>
+    </Style>
+
+    <Style x:Key="WindowTitleText" TargetType="{x:Type TextBlock}">
+        <Setter Property="FontSize" Value="16"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="Foreground" Value="Black"/>
+        <Setter Property="SnapsToDevicePixels" Value="True"/>
+    </Style>
+
+    <Style x:Key="WindowTitleButton" TargetType="{x:Type Button}">
+        <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+        <Setter Property="Width" Value="16" />
+        <Setter Property="Height" Value="16" />
+        <Setter Property="Focusable" Value="False"/>
+        <Setter Property="Margin" Value="2,0,0,0"/>
+        <Setter Property="SnapsToDevicePixels" Value="True"/>
+    </Style>
+
+    <Style x:Key="CloseButton" TargetType="{x:Type Button}" BasedOn="{StaticResource WindowTitleButton}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate>
+                    <Grid SnapsToDevicePixels="True">
+                        <Image x:Name="ButtonImage" 
+                               Source="/NeoOrange.Styles;component/Images/Clear/close.png"
+                               VerticalAlignment="Center"
+                               HorizontalAlignment="Center"
+                               SnapsToDevicePixels="True"
+                               RenderOptions.BitmapScalingMode="NearestNeighbor"
+                               RenderOptions.EdgeMode="Aliased"/>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate>
+                            <Grid>
+                                <Image x:Name="ButtonImage" 
+                                       Source="/NeoOrange.Styles;component/Images/Black/close.png"
+                                       VerticalAlignment="Center"
+                               HorizontalAlignment="Center"
+                               SnapsToDevicePixels="True"
+                               RenderOptions.BitmapScalingMode="NearestNeighbor"
+                               RenderOptions.EdgeMode="Aliased"/>
+                            </Grid>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="CentreButton" TargetType="{x:Type Button}" BasedOn="{StaticResource WindowTitleButton}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate>
+                    <Grid SnapsToDevicePixels="True">
+                        <Image x:Name="ButtonImage" 
+                               Source="/NeoOrange.Styles;component/Images/Clear/centre.png"
+                               VerticalAlignment="Center"
+                               HorizontalAlignment="Center"
+                               SnapsToDevicePixels="True"
+                               RenderOptions.BitmapScalingMode="NearestNeighbor"
+                               RenderOptions.EdgeMode="Aliased"/>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate>
+                            <Grid>
+                                <Image x:Name="ButtonImage" 
+                                       Source="/NeoOrange.Styles;component/Images/Black/centre.png"
+                                       VerticalAlignment="Center"
+                               HorizontalAlignment="Center"
+                               SnapsToDevicePixels="True"
+                               RenderOptions.BitmapScalingMode="NearestNeighbor"
+                               RenderOptions.EdgeMode="Aliased"/>
+                            </Grid>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="DockLeftButton" TargetType="{x:Type Button}" BasedOn="{StaticResource WindowTitleButton}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate>
+                    <Grid SnapsToDevicePixels="True">
+                        <Image x:Name="ButtonImage" 
+                               Source="/NeoOrange.Styles;component/Images/Clear/dockleft.png"
+                               VerticalAlignment="Center"
+                               HorizontalAlignment="Center"
+                               SnapsToDevicePixels="True"
+                               RenderOptions.BitmapScalingMode="NearestNeighbor"
+                               RenderOptions.EdgeMode="Aliased"/>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate>
+                            <Grid>
+                                <Image x:Name="ButtonImage" 
+                                    Source="/NeoOrange.Styles;component/Images/Black/dockleft.png"
+                                    VerticalAlignment="Center"
+                                    HorizontalAlignment="Center"
+                                    SnapsToDevicePixels="True"
+                                    RenderOptions.BitmapScalingMode="NearestNeighbor"
+                                    RenderOptions.EdgeMode="Aliased"/>
+                            </Grid>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="DockRightButton" TargetType="{x:Type Button}" BasedOn="{StaticResource WindowTitleButton}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate>
+                    <Grid SnapsToDevicePixels="True">
+                        <Image x:Name="ButtonImage" 
+                               Source="/NeoOrange.Styles;component/Images/Clear/dockright.png"
+                               VerticalAlignment="Center"
+                               HorizontalAlignment="Center"
+                               SnapsToDevicePixels="True"
+                               RenderOptions.BitmapScalingMode="NearestNeighbor"
+                               RenderOptions.EdgeMode="Aliased"/>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate>
+                            <Grid>
+                                <Image x:Name="ButtonImage" 
+                                       Source="/NeoOrange.Styles;component/Images/Black/dockright.png"
+                                       VerticalAlignment="Center"
+                               HorizontalAlignment="Center"
+                               SnapsToDevicePixels="True"
+                               RenderOptions.BitmapScalingMode="NearestNeighbor"
+                               RenderOptions.EdgeMode="Aliased"/>
+                            </Grid>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="ToolbarButton" TargetType="{x:Type Button}">
+        <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+        <Setter Property="Focusable" Value="False"/>
+        <Setter Property="Margin" Value="5"/>
+        <Setter Property="Background" Value="{x:Null}"/>
+        <Setter Property="BorderBrush" Value="{x:Null}"/>
+        <Setter Property="SnapsToDevicePixels" Value="True"/>
+        <Setter Property="extensions:ButtonExtension.Image" Value="/NeoOrange.Styles;component/Images/Black/toolbarbutton.png"/>
+
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate>
+                    <Grid Background="{Binding Path=Background, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Button}}}"
+                          SnapsToDevicePixels="True">
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="15"/>
+                            <RowDefinition Height="34"/>
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="35"/>
+                            <ColumnDefinition Width="15"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Border BorderBrush="{Binding Path=BorderBrush, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Button}}}"
+                                BorderThickness="{Binding Path=BorderThickness, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Button}}}"
+                                Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" Grid.RowSpan="2"
+                                SnapsToDevicePixels="True">
+                            <Image x:Name="ButtonImage" HorizontalAlignment="Left" Height="50" Width="50"
+                               Source="{Binding Path=(extensions:ButtonExtension.Image),
+                               RelativeSource={RelativeSource FindAncestor,
+                               AncestorType={x:Type Button}}}"
+                               RenderOptions.EdgeMode="Aliased"
+                               SnapsToDevicePixels="True"/>
+                        </Border>
+
+                        <Grid Grid.Column="1" Grid.Row="0" Visibility="{Binding Path=(extensions:ButtonExtension.HasOpenWindows), 
+                                RelativeSource={RelativeSource FindAncestor, 
+                                AncestorType={x:Type Button}}, Converter={StaticResource BooleanToVisibilityConverter}}"
+                                SnapsToDevicePixels="True">
+                            <Ellipse Fill="Orange" Width="15" Height="15"/>
+                            <TextBlock Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" 
+                                Text="{Binding Path=(extensions:ButtonExtension.OpenWindowsCount), 
+                                RelativeSource={RelativeSource FindAncestor, 
+                                AncestorType={x:Type Button}}}"
+                                SnapsToDevicePixels="True"></TextBlock>
+                        </Grid>
+
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Background">
+                    <Setter.Value>
+                        <LinearGradientBrush StartPoint="0.504,0.03" EndPoint="0.504,1.5" >
+                            <GradientStop Color="#FFFFFFFF" Offset="0"/>
+                            <GradientStop Color="#FFFFD7A8" Offset="0.567"/>
+                        </LinearGradientBrush>
+                    </Setter.Value>
+                </Setter>
+
+                <Setter Property="BorderBrush">
+                    <Setter.Value>
+                        <SolidColorBrush Color="Orange"/>
+                    </Setter.Value>
+                </Setter>
+
+                <Setter Property="BorderThickness">
+                    <Setter.Value>
+                        <Thickness>1</Thickness>
+                    </Setter.Value>
+                </Setter>
+
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style TargetType="{x:Type ContentControl}" x:Key="WindowTitleImage">
+        <Setter Property="HorizontalAlignment" Value="Left"/>
+        <Setter Property="Margin" Value="5,0,0,0"/>
+        <Setter Property="SnapsToDevicePixels" Value="True"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate>
+                    <Border>
+                        <Grid SnapsToDevicePixels="True">
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="15"/>
+                                <ColumnDefinition Width="34"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Image x:Name="Image" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"
+                               HorizontalAlignment="Left" Height="50" Width="50"
+                               Source="{Binding Path=(extensions:GeneralControlExtension.Image),
+                               RelativeSource={RelativeSource FindAncestor,
+                               AncestorType={x:Type ContentControl}}}"
+                               SnapsToDevicePixels="True"/>
+
+                            <Grid Grid.Column="0" Grid.Row="0" Visibility="{Binding Path=(extensions:GeneralControlExtension.IsDirty), 
+                                RelativeSource={RelativeSource FindAncestor, 
+                                AncestorType={x:Type ContentControl}}, Converter={StaticResource BooleanToVisibilityConverter}}"
+                                SnapsToDevicePixels="True">
+
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="5"/>
+                                    <RowDefinition Height="5"/>
+                                    <RowDefinition Height="2"/>
+                                    <RowDefinition Height="5"/>
+                                    <RowDefinition Height="2"/>
+                                    <RowDefinition Height="5"/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="5"/>
+                                    <ColumnDefinition Width="5"/>
+                                    <ColumnDefinition Width="5"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Border Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Background="Red" SnapsToDevicePixels="True"/>
+                                <Border Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Background="Red" SnapsToDevicePixels="True"/>
+                                <Border Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="1" Background="Red" SnapsToDevicePixels="True"/>
+                            </Grid>
+
+                        </Grid>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+
+    </Style>
+
+    <Style x:Key="StandardButton" TargetType="{x:Type Button}">
+        <Setter Property="Width" Value="75"/>
+        <Setter Property="Height" Value="25"/>
+    </Style>
+
+    <Style x:Key="AttentionButton" TargetType="{x:Type Button}" BasedOn="{StaticResource StandardButton}">
+
+    </Style>
+
+    <Style x:Key="ConfigButton" TargetType="{x:Type Button}" BasedOn="{StaticResource ToolbarButton}">
+        <Setter Property="extensions:ButtonExtension.Image" Value="/NeoOrange.Styles;component/Images/Black/configuration.png"/>
+        <Setter Property="SnapsToDevicePixels" Value="True"/>
+    </Style>
+
+    <Style x:Key="ConfigWindowTitleImage" TargetType="{x:Type ContentControl}" BasedOn="{StaticResource WindowTitleImage}">
+        <Setter Property="extensions:GeneralControlExtension.Image" Value="/NeoOrange.Styles;component/Images/Black/configuration.png"/>
+        <Setter Property="SnapsToDevicePixels" Value="True"/>
+    </Style>
+
+    <Style x:Key="StandardTextBox" TargetType="{x:Type TextBox}">
+        <Setter Property="Height" Value="20"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="SnapsToDevicePixels" Value="True"/>
+    </Style>
+
+    <Style x:Key="StandardPasswordBox" TargetType="{x:Type PasswordBox}">
+        <Setter Property="Height" Value="20"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="SnapsToDevicePixels" Value="True"/>
+    </Style>
+
+</ResourceDictionary>

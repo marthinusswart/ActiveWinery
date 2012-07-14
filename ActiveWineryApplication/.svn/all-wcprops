@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/59696/ActiveWineryApplication
+END
+App.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/52666/ActiveWineryApplication/App.xaml
+END
+TestStyles.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/52666/ActiveWineryApplication/TestStyles.xaml
+END
+ActiveWinery.sln
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/59577/ActiveWineryApplication/ActiveWinery.sln
+END
+App.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/48877/ActiveWineryApplication/App.xaml.cs
+END
+Shell.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/59577/ActiveWineryApplication/Shell.xaml
+END
+TestStyles.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/48877/ActiveWineryApplication/TestStyles.xaml.cs
+END
+ActiveWinery.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/59695/ActiveWineryApplication/ActiveWinery.csproj
+END
+Bootstrapper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/59695/ActiveWineryApplication/Bootstrapper.cs
+END
+Shell.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/48877/ActiveWineryApplication/Shell.xaml.cs
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/48891/NeoOrange.Infrastructure/Services
+END
+IWindowsManager.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/59577/NeoOrange.Infrastructure/Services/IWindowsManager.cs
+END
+IViewModelLocator.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/59577/NeoOrange.Infrastructure/Services/IViewModelLocator.cs
+END
